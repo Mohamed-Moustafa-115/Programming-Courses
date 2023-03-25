@@ -1,0 +1,79 @@
+body
+{
+    background-color: rgb(193, 201, 209);
+}
+.container-fluid
+{
+    height: 4em;
+    background-color: black;
+}
+.container-fluid a
+{
+    color: white;
+    transition-duration: 0.2s;
+}
+.container-fluid a:hover
+{
+    color: #0d6efd;
+}
+.wel
+{
+    background-image: url("./photos/5.gif"); 
+    background-size: 300em;
+    width: 100%; 
+    height:30em;
+    margin: 0 0 20px;
+    padding: 0 50%;
+}
+.des
+{
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 12rem;
+    right: 0%;
+    left: 0%;
+}
+.des button
+{
+    position: relative;
+    top: 60%;
+    
+}
+.welcome
+{
+    width: 100%; 
+    height: 100%;
+    padding: 3rem;
+}
+.features
+{
+    background-color: white;
+    width:83%;
+    border-radius: 5px;
+}
+.fields
+{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.fields .card
+{
+    width: 25rem;
+    margin: 20px auto;
+}
+.card
+{
+    
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
+.card:hover
+{
+    scale: 1.05;
+}
+.footer
+{
+    padding: 0;
+}
